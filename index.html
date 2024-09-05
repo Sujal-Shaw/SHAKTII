@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>SHA</span>KTI</a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#services">services</a>
+            <a href="#contact">contact</a>
+            <a href="#about">about us</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here.....">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+            
+    </header>
+<!-- login section -->
+
+<div class="login-form-container">
+
+    <i class="fa-solid fa-xmark" id="form-close"></i>
+
+    <form action="">
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">remember me</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+    
+</div>
+
+<!-- home section -->
+<section class="home" id="home">
+    
+    <div class="content">
+        <h3></h3>
+    <p>welcome  to shakti.</p>
+    <a href="#packages" class="btn">Discover More</a>
+</div>
+
+<div class="controls">
+    <span class="vid-btn" data-src="india.mov.mp4"></span>
+</div>
+
+<div class="video-container">
+    <video src="a.mp4.mp4" id="video-slider" loop autoplay muted></video>
+</div>
+</section>
+<script src="index.js"></script>
+</body>
+</html>
